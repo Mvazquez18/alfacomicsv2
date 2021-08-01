@@ -368,6 +368,12 @@ span {
 /*Footer*/
 
    footer {
+    background: linear-gradient(to right, #000000, #434343);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
     position: relative;
     z-index: 5;
    }
@@ -426,16 +432,7 @@ padding-top:20px;
 
 }
 
-footer {
-background-color: black;
-padding-top: 40px;
-padding-bottom: 40px;
-color: white;
-font-family: 'Roboto', sans-serif;
-font-size: 19px;
-    
-    
-}
+  
 .col-sm {
 text-transform: none;
 text-align: center;
@@ -463,6 +460,7 @@ display: flex;
 justify-content: space-evenly;
 padding-top: 30px;
 }
+
 
 /*Formulario*/
 .col-md-8 {
@@ -739,6 +737,14 @@ img.footerCards {
 
 @media (max-width:768px) {
 
+    
+    #columna1 {
+        justify-content: space-around;
+    }  
+
+    #columna1 {
+        justify-content: space-around;
+    }  
     .section__Fotos {
         padding-left: 50px;
         padding-right: 50px;
