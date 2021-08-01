@@ -115,7 +115,9 @@ span {
     height: 30vw;
     color: white;
     font-size: 1.8em;
-    font-family: "AlterEgoBBW00-Regular";
+    font-family: "classic-comic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding-left: 3rem;
     padding-bottom: 5rem;
     overflow: hidden;
@@ -134,7 +136,9 @@ span {
     height: 30vw;
     color: white;
     font-size: 1.8em;
-    font-family: "AlterEgoBBW00-Regular";
+    font-family: "classic-comic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding-left: 3rem;
     padding-bottom: 5rem;
     overflow: hidden;
@@ -246,7 +250,9 @@ h4 a:hover {
 }
 
 h5 {
-    font-family: "AlterEgoBBW00-Regular";
+    font-family: "classic-comic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 25px;
     display: inline-block;
     margin-left: 112px;   
@@ -493,7 +499,9 @@ div.well.well-sm {
     padding-bottom: 10px;
     font-size: 1.2rem;
     border-radius: 15px;
-    font-family: "AlterEgoBBW00-Regular";
+    font-family: "classic-comic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding-right: 20px;
     margin-bottom: 20px;
 }
@@ -541,7 +549,9 @@ p.textoRecomendados {
     padding-bottom: 10px;
     font-size: 1.2rem;
     border-radius: 15px;
-    font-family: "AlterEgoBBW00-Regular";
+    font-family: "classic-comic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding-right: 900px;
     margin-bottom: 40px;
 }
@@ -556,7 +566,9 @@ p.textoRecomendados {
     padding-bottom: 10px;
     font-size: 1.2rem;
     border-radius: 15px;
-    font-family: "AlterEgoBBW00-Regular";
+    font-family: "classic-comic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     padding-right: 900px;
     margin-bottom: 40px;
     
@@ -615,6 +627,10 @@ span {
     font-weight: 600;
     font-size: 22px;
 }
+img.batmanImg {
+    margin-left: 23px;
+}
+
 /*Media Queries*/
 
 @import url(//db.onlinewebfonts.com/c/dfb3844c6834f75c91f844559732e9a4?family=AlterEgoBBW00-Regular);
@@ -679,10 +695,6 @@ h6 {
     margin-right: 50px !important;;
 }
 
-h5 {
-    margin-left: 83px !important;
-}
-
 .col-sm {
     text-transform: none;
     text-align: center !important;
@@ -738,13 +750,20 @@ img.footerCards {
             
     }  
     
-    h5 {
-        margin-left: 70px;
-    }
+   .tituloAmarillo {
+       display: flex;
+       justify-content: center;
+   }
+
     h6 {
         font-size:20px;
         margin-right:  40px;
     }
+
+    h5 {
+        margin-left: 0px;
+    }
+    
     .logoBanner {
         margin-right: 40px;
     }
@@ -779,7 +798,7 @@ img.footerCards {
     }
 
     .titulosComic1 {
-        padding-right: 500px;
+        padding-right: 460px;
         margin-top:0;   
         margin-left: 0px;
     }
@@ -790,7 +809,7 @@ img.footerCards {
     }
 
     .titulosComic2 {
-        padding-right: 500px;
+        padding-right: 460px;
         margin-left: 0px;
         margin-top:30px;
     }
