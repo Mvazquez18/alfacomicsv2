@@ -1,0 +1,88 @@
+
+$font-general: 'Roboto', sans-serif;
+$font-comics: "classic-comic", sans-serif;
+$gradiente: linear-gradient(to right, #000000, #434343);
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*header*/
+.container {
+  font-family: $font-general;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.form-control:focus, .form-control {
+  color: #495057;
+  background-color: #fff;
+  border-color: white;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control {
+  border-radius: 20px;
+  color: white;
+  background: transparent;
+}
+form {
+  margin-left: 2rem;
+  border-radius: 400px;
+}
+
+.bg-dark {
+  background: linear-gradient(to right, #000000, #434343);
+}
+
+.button {
+  background-color: transparent;
+}
+.button :focus {
+  outline: none;
+  outline: gray;
+}
+
+.btn-outline-success {
+  border: none;
+}
+.btn-outline-success:hover {
+  background-color: rgba(0, 0, 0, 0.842);
+  border: none;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-success.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+  color: black;
+  background-color: black;
+  border-color: black;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+  box-shadow: none;
+}
+
+.btn-outline-success.focus {
+  box-shadow: none;
+}
+.btn-outline-success.focus:focus {
+  box-shadow: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */
