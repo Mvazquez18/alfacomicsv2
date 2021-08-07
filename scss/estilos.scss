@@ -1,0 +1,215 @@
+@import 'header';
+@import 'index';
+@import 'footer';
+
+@import url(//db.onlinewebfonts.com/c/dfb3844c6834f75c91f844559732e9a4?family=AlterEgoBBW00-Regular);
+
+
+@media (max-width:480px) {
+
+
+.w-100 {
+        scale: 112%;
+    }
+    
+    #columna1 {
+    font-size: 1.2em;
+    justify-content: flex-start;
+    
+
+    }
+
+#columna2 {
+    font-size: 1.2em;
+    justify-content: flex-start;
+}
+
+.form-control {
+    width: 80%;
+}
+
+.mb-2, .my-2 {
+    margin-left: 0;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+
+img {
+    width: 80%;
+        
+}
+
+
+p {
+    padding-bottom: 0;
+
+}
+.recuadro {
+    padding-bottom: 30px;
+    padding-top:40px;
+}
+
+.bannerfinal {
+    width: 150%;
+    height: 125%;
+ 
+}
+h6 {
+    font-size: 16px !important;
+    margin-right: 50px !important;;
+}
+
+.textoBanner{
+    font-size: 16px !important;
+    margin-right: 50px !important;
+}
+
+.textoBannerlinea {
+    font-size: 16px !important;
+    margin-right: 50px !important;
+}
+
+.col-sm {
+    text-transform: none;
+    text-align: center !important;
+}
+img.footerCards {
+    width: 80%;
+    padding-bottom: 20px;
+}
+.tarjetas {
+    text-align: center;
+}
+
+.listaContactos {
+    margin-left: 0;
+}
+.listaContactos {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 0 !important;
+    margin-top: 10px;
+}
+.iconosRedes {
+    justify-content: center;
+    padding-top: 10px;
+   
+}
+.titulosComic1 {
+    margin-top: 20px !important;
+    padding-right: 30px !important;
+    margin-left: 20px !important;;
+}
+
+.titulosComic2 {
+    padding-right: 30px !important;
+    margin-left: 0 !important;
+}
+.parrafoRecomenados {
+    padding-right: 0;
+    padding-left: 0;
+}
+}
+
+
+@media (max-width:768px) {
+
+    
+    #columna1 {
+        justify-content: space-around;
+    }  
+
+    #columna2 {
+        justify-content: space-around;
+    }  
+    .section__Fotos {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 45px;
+        margin-top: 25px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+            
+    }  
+    
+   .tituloAmarillo {
+       display: flex;
+       justify-content: center;
+   }
+
+    h6 {
+        font-size:20px;
+        margin-right:  40px;
+    }
+
+    h5 {
+        margin-left: 0px;
+    }
+    
+    .logoBanner {
+        margin-right: 40px;
+    }
+    .botonBanner {
+        margin-right: 45px;
+    }
+    .banner__final {
+        margin-top:0;
+    }
+    .footerCards {
+        width: 130%;
+    }
+    .col-sm {
+        text-transform: none;
+        text-align: left;
+    }
+    .listaContactos {
+        margin-left: 70px;
+            
+    }
+
+    .titulosRedes {
+        text-align: center;
+    }
+
+    a.botones {
+        font-size: 11px;
+    }
+
+    form.form-inline.my-2.my-lg-0 {
+        margin-left: 0px;
+    }
+
+    .titulosComic1 {
+        padding-right: 460px;
+        margin-top:0;   
+        margin-left: 0px;
+    }
+    
+    .parrafoRecomenados {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .titulosComic2 {
+        padding-right: 460px;
+        margin-left: 0px;
+        margin-top:30px;
+    }
+    }
+
+     
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform:rotateX(-10deg)
+
+    }
+
+    to {
+        opacity: 1;
+        transform:rotateX(-10deg)
+    }
+}
