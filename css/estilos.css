@@ -1,0 +1,601 @@
+@import url(//db.onlinewebfonts.com/c/dfb3844c6834f75c91f844559732e9a4?family=AlterEgoBBW00-Regular);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+/*header*/
+.container {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.form-control:focus, .form-control {
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control {
+  border-radius: 20px;
+  color: white;
+  background: transparent;
+}
+
+form {
+  margin-left: 2rem;
+  border-radius: 400px;
+}
+
+.bg-dark {
+  background: linear-gradient(to right, #000000, #434343);
+}
+
+.button {
+  background-color: transparent;
+}
+
+.button :focus {
+  outline: none;
+  outline: gray;
+}
+
+.btn-outline-success {
+  border: none;
+}
+
+.btn-outline-success:hover {
+  background-color: rgba(0, 0, 0, 0.842);
+  border: none;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-success.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+  color: black;
+  background-color: black;
+  border-color: black;
+}
+
+.btn-outline-success.focus, .btn-outline-success:focus {
+  box-shadow: none;
+}
+
+.btn-outline-success.focus {
+  box-shadow: none;
+}
+
+.btn-outline-success.focus:focus {
+  box-shadow: none;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */
+/*Comics y merchandising*/
+h3 {
+  font-size: 0.1rem;
+}
+
+span {
+  font-size: 0, 5em;
+  font-weight: 100;
+  text-transform: none;
+}
+
+.w-100 {
+  width: 101% !important;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.banner__final, #columna1, #columna2 {
+  display: flex;
+  flex-direction: column;
+  background: no-repeat;
+  background-size: cover;
+}
+
+#columna1, #columna2 {
+  justify-content: flex-end;
+  background-image: url("../img/comics.jpg");
+  height: 30vw;
+  color: white;
+  font-size: 1.8em;
+  font-family: "classic-comic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 166px;
+  padding-bottom: 5rem;
+  padding-right: 0;
+  padding-left: 3rem;
+  overflow: hidden;
+  margin-top: 0px;
+}
+
+#columna1 {
+  background-image: url("../img/comics.jpg");
+}
+
+#columna2 {
+  background-image: url("../img/merchandising.jpg");
+}
+
+.banner__final h4 a, h4 a {
+  width: 40%;
+  padding: 8px 20px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+h4 a:hover {
+  color: white;
+  text-decoration: none;
+  background: black;
+}
+
+.form-inline .form-control {
+  margin-left: 0;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-success.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem black;
+}
+
+.aos-init {
+  z-index: 3;
+  position: relative;
+}
+
+h5 {
+  font-family: "classic-comic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  display: inline-block;
+  margin-left: 112px;
+  margin-top: 30px;
+  color: black;
+  background-color: yellow;
+  padding: 20px;
+  border: solid 4px;
+}
+
+.zIndex {
+  position: relative;
+  z-index: 5;
+}
+
+.section__Fotos {
+  margin-top: 35px;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(300px, 300px));
+  justify-content: space-around;
+  row-gap: 30px;
+  padding-top: 0px;
+  padding-bottom: 90px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.section__Fotos img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  margin-left: 9px;
+  box-shadow: 10px 10px 29px -2px rgba(0, 0, 0, 0.39);
+  transition: 1s;
+}
+
+.section__Fotos h4 a {
+  width: 90%;
+  margin-left: 55px;
+  margin-right: 55px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: 0.5s;
+  text-decoration: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.section__Fotos h4 a:hover {
+  color: white;
+  background-color: black;
+}
+
+.recuadro {
+  display: grid;
+  border: black solid 2px;
+  border-radius: 20px;
+  width: 300px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-right: 0;
+  padding-left: 0;
+  justify-content: center;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  display: inline-block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.banner__final {
+  min-height: 50vh;
+  background-image: url(../img/bannerfinalpagina.jpg);
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  background-position: center;
+  margin-top: -50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 0;
+  padding-left: 45px;
+}
+.banner__final h4 a:hover {
+  color: white;
+  text-decoration: none;
+  background: black;
+}
+
+.textoBanner {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 0px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.textoBannerlinea {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  padding-top: 1px;
+  margin-bottom: 2px;
+  padding-bottom: 0;
+  padding-top: 1px;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.logoBanner {
+  margin-bottom: 30px;
+}
+
+#botonVerCollecion {
+  margin-top: 30px;
+}
+
+footer {
+  background: linear-gradient(to right, #000000, #434343);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 0;
+  padding-left: 0;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  position: relative;
+  z-index: 5;
+}
+
+.mediosdepago {
+  padding-top: 20px;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.redes {
+  padding-right: 10px;
+  max-width: 50px;
+}
+
+.footerCards {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.col-sm {
+  text-transform: none;
+  text-align: center;
+}
+
+.listaContactos {
+  list-style: none;
+  text-align: left;
+  font-size: 14px;
+  margin-left: 82px;
+  margin-top: 25px;
+}
+
+.Contactanos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.iconosRedes {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+@media (max-width: 480px) {
+  .w-100 {
+    scale: 112%;
+  }
+
+  #columna1 {
+    font-size: 1.2em;
+    justify-content: flex-start;
+  }
+
+  #columna2 {
+    font-size: 1.2em;
+    justify-content: flex-start;
+  }
+
+  .form-control {
+    width: 80%;
+  }
+
+  .mb-2, .my-2 {
+    margin-left: 0;
+  }
+
+  .btn {
+    margin-left: 10px;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  p {
+    padding-bottom: 0;
+  }
+
+  .recuadro {
+    padding-bottom: 30px;
+    padding-top: 40px;
+  }
+
+  .bannerfinal {
+    width: 150%;
+    height: 125%;
+  }
+
+  h6 {
+    font-size: 16px !important;
+    margin-right: 50px !important;
+  }
+
+  .textoBanner {
+    font-size: 16px !important;
+    margin-right: 50px !important;
+  }
+
+  .textoBannerlinea {
+    font-size: 16px !important;
+    margin-right: 50px !important;
+  }
+
+  .col-sm {
+    text-transform: none;
+    text-align: center !important;
+  }
+
+  img.footerCards {
+    width: 80%;
+    padding-bottom: 20px;
+  }
+
+  .tarjetas {
+    text-align: center;
+  }
+
+  .listaContactos {
+    margin-left: 0;
+  }
+
+  .listaContactos {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+
+  .iconosRedes {
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .titulosComic1 {
+    margin-top: 20px !important;
+    padding-right: 30px !important;
+    margin-left: 20px !important;
+  }
+
+  .titulosComic2 {
+    padding-right: 30px !important;
+    margin-left: 0 !important;
+  }
+
+  .parrafoRecomenados {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  #columna1 {
+    justify-content: space-around;
+  }
+
+  #columna2 {
+    justify-content: space-around;
+  }
+
+  .section__Fotos {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 45px;
+    margin-top: 25px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+  }
+
+  .tituloAmarillo {
+    display: flex;
+    justify-content: center;
+  }
+
+  h6 {
+    font-size: 20px;
+    margin-right: 40px;
+  }
+
+  h5 {
+    margin-left: 0px;
+  }
+
+  .logoBanner {
+    margin-right: 40px;
+  }
+
+  .botonBanner {
+    margin-right: 45px;
+  }
+
+  .banner__final {
+    margin-top: 0;
+  }
+
+  .footerCards {
+    width: 130%;
+  }
+
+  .col-sm {
+    text-transform: none;
+    text-align: left;
+  }
+
+  .listaContactos {
+    margin-left: 70px;
+  }
+
+  .titulosRedes {
+    text-align: center;
+  }
+
+  a.botones {
+    font-size: 11px;
+  }
+
+  form.form-inline.my-2.my-lg-0 {
+    margin-left: 0px;
+  }
+
+  .titulosComic1 {
+    padding-right: 460px;
+    margin-top: 0;
+    margin-left: 0px;
+  }
+
+  .parrafoRecomenados {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .titulosComic2 {
+    padding-right: 460px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+}
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotateX(-10deg);
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
