@@ -1,18 +1,16 @@
-@mixin padding ($t, $b, $r, $l) {
-    padding-top: $t;
-    padding-bottom: $b;
-    padding-right: $r;
-    padding-left: $l;
-}
+
+$font-general: 'Roboto', sans-serif;
+$font-comics: "classic-comic", sans-serif;
+$gradiente: linear-gradient(to right, #000000, #434343);
 
 footer {
     background: $gradiente;
-    @include padding(40px,40px,0,0 );
     color: white;
     font-family: $font-general;
     font-size: 19px;
     position: relative;
     z-index: 5;
+    @include padding(40px,40px,0,0 );
    }
 
    .mediosdepago {

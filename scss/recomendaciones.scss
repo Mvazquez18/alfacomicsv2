@@ -1,0 +1,192 @@
+
+.mainRecomendados {
+    margin-bottom: 50px;
+}
+h2 {
+    margin-top: 22px;
+}
+
+p.textoRecomendados {
+    font-style: unset;
+    text-align: left;
+    text-transform: none;
+    padding-bottom: 0;
+       
+}
+ 
+%titulosComic {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    font-family: "classic-comic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 40px;
+    @include padding (10px,10px,900px,20px);
+}
+.titulosComic1 {
+  @extend %titulosComic;
+  background-color: #F5B3B7;
+  color: black;
+}
+
+.titulosComic2 {
+    @extend %titulosComic;
+  background-color: #70A2BE;
+  color: white;
+}
+
+.colRecomenados {
+    padding-left: 0;
+}
+
+img.imgRecomendados {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 9px;
+    box-shadow: 10px 10px 29px -2px rgba(0,0,0,0.39);
+}
+
+.container  h4 a {
+    width: 90%;
+    margin-left: 55px;
+    margin-right: 55px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: 0.5s;
+    text-decoration: none;
+    @include padding (8px,8px,40px,40px);
+    
+    &h4 a:hover {
+    background-color: black;
+    color:white;
+}
+}
+.containerRecomenados {
+padding-left: 0
+}
+
+.parrafoRecomenados {
+text-align: left;
+font-style: 17px;
+text-transform: none;
+padding-left: 20px;
+padding-right: 100px;
+}
+
+span {
+    font-weight: 600;
+    font-size: 22px;
+}
+img.batmanImg {
+    margin-left: 23px;
+}
+
+/*Media Queries*/
+
+@import url(//db.onlinewebfonts.com/c/dfb3844c6834f75c91f844559732e9a4?family=AlterEgoBBW00-Regular);
+
+
+@media (max-width:480px) {
+
+
+.w-100 {
+        scale: 112%;
+    }
+    
+    #columna1 {
+    font-size: 1em;
+    justify-content: flex-start;
+    
+
+    }
+
+#columna2 {
+    font-size: 1em;
+    justify-content: flex-start;
+}
+
+.form-control {
+    width: 80%;
+}
+
+.mb-2, .my-2 {
+    margin-left: 0;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+
+img {
+    width: 80%;
+        
+}
+
+
+p {
+    padding-bottom: 0;
+
+}
+.recuadro {
+    @include padding(40px,30px,0px,0px);
+}
+
+.bannerfinal {
+    width: 150%;
+    height: 125%;
+ 
+}
+h6 {
+    font-size: 16px !important;
+    margin-right: 50px !important;;
+}
+
+.col-sm {
+    text-transform: none;
+    text-align: center !important;
+}
+img.footerCards {
+    width: 80%;
+    padding-bottom: 20px;
+}
+.tarjetas {
+    text-align: center;
+}
+
+.listaContactos {
+    list-style: none;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 0 !important;
+    margin-top: 10px;
+}
+.iconosRedes {
+    justify-content: center;
+    padding-top: 10px;
+   
+}
+.titulosComic1 {
+    margin-top: 20px !important;
+    padding-right: 30px !important;
+    margin-left: 20px !important;;
+}
+
+.titulosComic2 {
+    padding-right: 30px !important;
+    margin-left: 0 !important;
+}
+.parrafoRecomenados {
+    padding-right: 0;
+    padding-left: 0;
+}
+}
