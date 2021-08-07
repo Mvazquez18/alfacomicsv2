@@ -1,0 +1,273 @@
+ /*Comics y merchandising*/
+ @mixin padding ($t, $b, $r, $l) {
+    padding-top: $t;
+    padding-bottom: $b;
+    padding-right: $r;
+    padding-left: $l;
+}
+
+h3 {
+   
+    font-size: 0.1rem;
+  }
+  
+  span {
+      font-size: 0,5em;
+      font-weight: 100;
+      text-transform: none;
+  
+  }
+  
+  .w-100 {
+      width: 101% !important;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+%flex {
+    display: flex;
+    flex-direction: column;
+    background: no-repeat;
+    background-size: cover;
+}
+
+%columnaComicMerchandising {
+    @extend %flex;
+    justify-content: flex-end;
+    background-image:url("../img/comics.jpg");
+    height: 30vw;
+    color: white;
+    font-size: 1.8em;
+    font-family: $font-comics;
+    font-weight: 400;
+    font-style: normal;
+    @include padding(166px,5rem,0,3rem );
+    overflow: hidden;
+    margin-top: 0px;
+  }
+
+#columna1, #columna2 {
+    @extend %columnaComicMerchandising;
+}
+
+#columna1 {
+    background-image:url("../img/comics.jpg");
+}
+
+#columna2 {
+    background-image:url("../img/merchandising.jpg");
+}
+
+%botones1 {
+    width: 40%;
+    padding: 8px 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    font-family: $font-general;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+h4 a {
+    @extend %botones1;
+    &:hover {
+        color: white;
+        text-decoration: none;
+        background: black;
+    }
+}
+
+.form-inline .form-control {
+    margin-left: 0;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active, .btn-outline-success:not(:disabled):not(.disabled):active, .show > .btn-outline-success.dropdown-toggle {
+   color: #fff;
+   background-color: black;
+   border-color: black;
+}
+
+.btn.focus, .btn:focus {
+   outline: 0;
+}
+
+.btn-outline-success:not(:disabled):not(.disabled).active:focus, .btn-outline-success:not(:disabled):not(.disabled):active:focus, .show > .btn-outline-success.dropdown-toggle:focus {
+   box-shadow: 0 0 0 .2rem rgb(0, 0, 0);
+}
+
+.aos-init {
+    z-index: 3;
+    position: relative;
+}
+
+%titulos {
+    font-family: $font-comics;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 112px;   
+    margin-top: 30px;
+    color: black;
+    background-color: yellow;
+    padding: 20px;
+    border: solid 4px;
+}
+
+h5 {
+    @extend %titulos;
+}
+
+.zIndex {
+    position: relative;
+    z-index: 5;
+}
+
+%cajaFotos {
+    margin-top: 35px;
+    display:grid;
+    grid-template-columns: repeat(4, minmax(300px, 300px));
+    justify-content: space-around;
+    row-gap: 30px;
+    @include padding(0px,90px ,100px ,100px);
+    }
+
+%fotosProductos {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 9px;
+    box-shadow: 10px 10px 29px -2px rgba(0,0,0,0.39);
+    transition: 1s;
+}
+
+%titulosProductos {
+    width: 90%;
+    margin-left: 55px;
+    margin-right: 55px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-family: $font-general;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: 0.5s;
+    text-decoration: none;
+    @include padding(8px, 8px, 40px, 40px);
+}
+
+.section__Fotos {
+    @extend %cajaFotos;
+
+    img {
+    @extend %fotosProductos;
+    }
+
+    h4 a {
+     @extend %titulosProductos;
+     &:hover {
+        color: white;
+        background-color: black;
+     }
+    }
+}
+
+%recuadros {
+    display: grid;
+    border: black solid 2px;
+    border-radius: 20px;
+    width: 300px;
+    @include padding(40px,50px,0,0);
+    justify-content: center;
+    box-shadow: 10px 10px 38px 0px rgba(0,0,0,0.20)
+}
+
+.recuadro {
+    @extend %recuadros;
+}
+
+
+%tituloyPrecios {
+    font-family: $font-general;
+    font-size: 14px;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    @include padding(20px,30px,0 ,0 );
+}
+
+p {
+    @extend %tituloyPrecios
+    
+}
+
+span {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.banner__final {
+    @extend %flex;
+    min-height: 50vh;
+    background-image:url(../img/bannerfinalpagina.jpg);
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-position: center;
+    margin-top: -50px;
+    @include padding(100px,100px, 0 ,45px );
+
+    h4 a {
+        @extend %botones1;
+        &:hover {
+            color: white;
+            text-decoration: none;
+            background: black;
+        }
+    }
+}
+
+.textoBanner {
+    font-family: $font-general;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    @include padding(2px,0px,0 ,0 );
+}
+.textoBannerlinea {
+    font-family: $font-general;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-top: 1px;
+    margin-bottom: 2px;
+    padding-bottom: 0;
+    @include padding(1px,0,0,0 );
+}
+
+
+.logoBanner {
+    margin-bottom: 30px;
+}
+
+#botonVerCollecion {
+    margin-top: 30px;
+  }
+  
+  
