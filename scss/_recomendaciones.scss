@@ -1,3 +1,7 @@
+$font-general: 'Roboto', sans-serif;
+$font-comics: "classic-comic", sans-serif;
+$gradiente: linear-gradient(to right, #000000, #434343);
+$medidaMain: 100px;
 
 .mainRecomendados {
     margin-bottom: 50px;
@@ -42,8 +46,8 @@ p.textoRecomendados {
 }
 
 img.imgRecomendados {
-    width: 200px;
-    height: 300px;
+    width: $medidaMain*2;
+    height: $medidaMain*3;
     object-fit: cover;
     margin-left: 9px;
     box-shadow: 10px 10px 29px -2px rgba(0,0,0,0.39);

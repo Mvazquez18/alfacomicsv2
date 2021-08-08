@@ -5,19 +5,3 @@
     padding-left: $l;
 }
 
-@mixin titulosBlog ($fondo) {
-    display: inline-block;
-    background-color: $fondo;
-    color: white;
-    padding-left: 20px;
-    padding-top: 10px;
-    margin-top: 20px;
-    padding-bottom: 10px;
-    font-size: 1.2rem;
-    border-radius: 15px;
-    font-family: "classic-comic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    padding-right: 900px;
-    margin-bottom: 40px;
-}
