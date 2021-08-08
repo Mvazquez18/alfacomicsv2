@@ -23,7 +23,7 @@ p.textoRecomendados {
     margin-top: 20px;
     font-size: 1.2rem;
     border-radius: 15px;
-    font-family: "classic-comic", sans-serif;
+    font-family: $font-comics;
     font-weight: 400;
     font-style: normal;
     margin-bottom: 40px;
@@ -60,7 +60,7 @@ img.imgRecomendados {
     color: black;
     border: 2px solid black;
     border-radius: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'font-general';
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 1px;
