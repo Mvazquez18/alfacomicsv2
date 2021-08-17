@@ -238,7 +238,7 @@ span {
     align-items: center;
     background-position: center;
     margin-top: -50px;
-    @include padding(100px,100px, 0 ,60px );
+    @include padding(100px,100px, 0 ,0px );
 
     h4 a {
         @extend %botones1;

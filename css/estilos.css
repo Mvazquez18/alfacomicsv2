@@ -287,7 +287,7 @@ span {
   padding-top: 100px;
   padding-bottom: 100px;
   padding-right: 0;
-  padding-left: 60px;
+  padding-left: 0px;
 }
 .banner__final h4 a:hover {
   color: white;
@@ -659,7 +659,7 @@ img.batmanImg {
   }
 
   .form-control {
-    width: 80%;
+    width: 100%;
   }
 
   .mb-2, .my-2 {
@@ -693,6 +693,7 @@ img.batmanImg {
   .bannerfinal {
     width: 150%;
     height: 125%;
+    padding: 0px;
   }
 
   .botonBanner {
@@ -801,11 +802,6 @@ img.batmanImg {
     margin-right: 0px;
   }
 
-  .banner__final {
-    margin-top: 0;
-    padding-left: 0px;
-  }
-
   .textoBanner {
     font-size: 20px;
   }
@@ -864,6 +860,16 @@ img.batmanImg {
   to {
     opacity: 1;
     transform: rotateX(-10deg);
+  }
+}
+@media only screen and (min-device-width: 800px) {
+  #message {
+    padding-bottom: 12rem;
+  }
+}
+@media only screen and (min-device-width: 1440px), (min-device-width: 1280px) {
+  #message {
+    padding-bottom: 4rem;
   }
 }
 

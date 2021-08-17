@@ -29,7 +29,7 @@
 }
 
 .form-control {
-    width: 80%;
+    width: 100%;
 }
 
 .mb-2, .my-2 {
@@ -66,6 +66,8 @@ p {
 .bannerfinal {
     width: 150%;
     height: 125%;
+    padding: 0px;
+
 }
 
 .botonBanner {
@@ -173,11 +175,6 @@ img.footerCards {
     .botonBanner {
         margin-right: 0px;
     }
-    .banner__final {
-        margin-top:0;
-        padding-left: 0px;
-
-    }
 
     .textoBanner {
         font-size: 20px;
@@ -242,3 +239,16 @@ img.footerCards {
     }
 }
 
+@media only screen
+  and (min-device-width: 800px) {
+    #message {
+        padding-bottom: 12rem;
+    }
+}
+
+@media only screen
+  and (min-device-width: 1440px), (min-device-width: 1280px) {
+#message {
+    padding-bottom: 4rem;
+}
+}
