@@ -509,7 +509,7 @@ img.imgRecomendados {
   color: black;
   border: 2px solid black;
   border-radius: 40px;
-  font-family: "font-general";
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 15px;
   letter-spacing: 1px;
@@ -521,9 +521,11 @@ img.imgRecomendados {
   padding-right: 40px;
   padding-left: 40px;
 }
-.container h4 ah4 a:hover {
-  background-color: black;
+
+h4 a:hover {
   color: white;
+  text-decoration: none;
+  background: #000000;
 }
 
 .containerRecomenados {

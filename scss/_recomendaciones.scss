@@ -60,7 +60,7 @@ img.imgRecomendados {
     color: black;
     border: 2px solid black;
     border-radius: 40px;
-    font-family: 'font-general';
+    font-family: $font-general;
     font-weight: 300;
     font-size: 15px;
     letter-spacing: 1px;
@@ -68,11 +68,13 @@ img.imgRecomendados {
     transition: 0.5s;
     text-decoration: none;
     @include padding (8px,8px,40px,40px);
-    
-    &h4 a:hover {
-    background-color: black;
-    color:white;
+  
 }
+
+h4 a:hover {
+    color: white;
+    text-decoration: none;
+    background: #000000;
 }
 .containerRecomenados {
 padding-left: 0
