@@ -28,8 +28,8 @@
     justify-content: flex-start;
 }
 
-.form-control {
-    width: 100%;
+.form-inline .form-control {
+    padding-right: 120px !important;
 }
 
 .mb-2, .my-2 {
@@ -139,6 +139,10 @@ img.footerCards {
 @media (max-width: 768px), (max-width: 800px) {
 
     
+    .form-inline .form-control {
+        padding-right: 460px;
+    }
+    
     #columna1 {
         justify-content: space-around;
     }  
@@ -154,8 +158,8 @@ img.footerCards {
         grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
             
     }  
-    
-   .tituloAmarillo {
+
+    .tituloAmarillo {
        display: flex;
        justify-content: center;
    }

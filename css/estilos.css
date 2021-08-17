@@ -662,8 +662,8 @@ img.batmanImg {
     justify-content: flex-start;
   }
 
-  .form-control {
-    width: 100%;
+  .form-inline .form-control {
+    padding-right: 120px !important;
   }
 
   .mb-2, .my-2 {
@@ -768,6 +768,10 @@ img.batmanImg {
   }
 }
 @media (max-width: 768px), (max-width: 800px) {
+  .form-inline .form-control {
+    padding-right: 460px;
+  }
+
   #columna1 {
     justify-content: space-around;
   }
