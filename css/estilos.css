@@ -176,6 +176,7 @@ h4 a:hover {
 .aos-init {
   z-index: 3;
   position: relative;
+  margin-left: 0px;
 }
 
 h5 {
@@ -184,7 +185,7 @@ h5 {
   font-style: normal;
   font-size: 25px;
   display: inline-block;
-  margin-left: 112px;
+  margin-left: 160px;
   margin-top: 30px;
   color: black;
   background-color: yellow;
@@ -286,7 +287,7 @@ span {
   padding-top: 100px;
   padding-bottom: 100px;
   padding-right: 0;
-  padding-left: 45px;
+  padding-left: 60px;
 }
 .banner__final h4 a:hover {
   color: white;
@@ -445,7 +446,6 @@ fieldset {
   color: white;
 }
 
-/*Recomenados*/
 .mainRecomendados {
   margin-bottom: 50px;
 }
@@ -505,7 +505,7 @@ img.imgRecomendados {
   color: black;
   border: 2px solid black;
   border-radius: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "font-general";
   font-weight: 300;
   font-size: 15px;
   letter-spacing: 1px;
@@ -517,7 +517,7 @@ img.imgRecomendados {
   padding-right: 40px;
   padding-left: 40px;
 }
-.container h4 a:hover {
+.container h4 ah4 a:hover {
   background-color: black;
   color: white;
 }
@@ -639,7 +639,11 @@ img.batmanImg {
     padding-left: 0;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 480px), (max-width: 375px) {
+  .tituloAmarillo {
+    margin-left: 0px;
+  }
+
   .w-100 {
     scale: 112%;
   }
@@ -679,24 +683,36 @@ img.batmanImg {
     padding-top: 40px;
   }
 
+  .logoBanner {
+    margin-right: 0px;
+    padding-right: 11px;
+    margin-bottom: 20px;
+    margin-left: 22px;
+  }
+
   .bannerfinal {
     width: 150%;
     height: 125%;
   }
 
+  .botonBanner {
+    margin-right: 40px;
+  }
+
   h6 {
     font-size: 16px !important;
-    margin-right: 50px !important;
   }
 
   .textoBanner {
     font-size: 16px !important;
-    margin-right: 50px !important;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   .textoBannerlinea {
     font-size: 16px !important;
-    margin-right: 50px !important;
+    padding-left: 20px;
+    padding-right: 22px;
   }
 
   .col-sm {
@@ -746,7 +762,7 @@ img.batmanImg {
     padding-left: 0;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 768px), (max-width: 800px) {
   #columna1 {
     justify-content: space-around;
   }
@@ -778,15 +794,24 @@ img.batmanImg {
   }
 
   .logoBanner {
-    margin-right: 40px;
+    margin-right: 0px;
   }
 
   .botonBanner {
-    margin-right: 45px;
+    margin-right: 0px;
   }
 
   .banner__final {
     margin-top: 0;
+    padding-left: 0px;
+  }
+
+  .textoBanner {
+    font-size: 20px;
+  }
+
+  .textoBannerlinea {
+    font-size: 20px;
   }
 
   .footerCards {

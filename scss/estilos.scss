@@ -7,9 +7,11 @@
 @import url(//db.onlinewebfonts.com/c/dfb3844c6834f75c91f844559732e9a4?family=AlterEgoBBW00-Regular);
 
 
-@media (max-width:480px) {
+@media (max-width:480px) , (max-width: 375px) {
 
-
+.tituloAmarillo {
+    margin-left: 0px;
+}
 .w-100 {
         scale: 112%;
     }
@@ -53,25 +55,40 @@ p {
     padding-bottom: 30px;
     padding-top:40px;
 }
+.logoBanner {
+    margin-right: 0px;
+    padding-right: 11px;
+    margin-bottom: 20px;
+    margin-left: 22px;
+}
+
 
 .bannerfinal {
     width: 150%;
     height: 125%;
- 
 }
+
+.botonBanner {
+    margin-right: 40px;
+}
+
 h6 {
     font-size: 16px !important;
-    margin-right: 50px !important;;
+   
 }
 
 .textoBanner{
     font-size: 16px !important;
-    margin-right: 50px !important;
+    padding-right: 30px;
+    padding-left: 30px;
+   
 }
 
 .textoBannerlinea {
     font-size: 16px !important;
-    margin-right: 50px !important;
+    padding-left: 20px;
+    padding-right: 22px;
+   
 }
 
 .col-sm {
@@ -117,8 +134,7 @@ img.footerCards {
 }
 }
 
-
-@media (max-width:768px) {
+@media (max-width: 768px), (max-width: 800px) {
 
     
     #columna1 {
@@ -152,13 +168,23 @@ img.footerCards {
     }
     
     .logoBanner {
-        margin-right: 40px;
+        margin-right: 0px;
     }
     .botonBanner {
-        margin-right: 45px;
+        margin-right: 0px;
     }
     .banner__final {
         margin-top:0;
+        padding-left: 0px;
+
+    }
+
+    .textoBanner {
+        font-size: 20px;
+    }
+
+    .textoBannerlinea {
+        font-size: 20px;
     }
     .footerCards {
         width: 130%;
@@ -215,3 +241,4 @@ img.footerCards {
         transform:rotateX(-10deg)
     }
 }
+
