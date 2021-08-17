@@ -70,6 +70,10 @@ p {
 
 }
 
+.banner__final {
+    margin-top: 0 !important;
+}
+
 .botonBanner {
     margin-right: 40px;
 }
@@ -172,7 +176,10 @@ img.footerCards {
     h5 {
         margin-left: 0px;
     }
-    
+
+    .banner__final {
+        margin-top: 0 !important;
+    }
     .logoBanner {
         margin-right: 0px;
     }
@@ -248,11 +255,18 @@ img.footerCards {
     #message {
         padding-bottom: 12rem;
     }
+
+    .banner__final {
+        margin-top: 0 !important;
+    }
 }
 
 @media only screen
   and (min-device-width: 1440px), (min-device-width: 1280px) {
 #message {
     padding-bottom: 4rem;
+}
+.banner__final {
+    margin-top: 0 !important;
 }
 }
