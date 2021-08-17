@@ -446,6 +446,10 @@ fieldset {
   color: white;
 }
 
+#fname, #lname, #email, #phone, #message {
+  color: black;
+}
+
 .mainRecomendados {
   margin-bottom: 50px;
 }
