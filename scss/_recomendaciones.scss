@@ -26,6 +26,7 @@ p.textoRecomendados {
     font-family: $font-comics;
     font-weight: 400;
     font-style: normal;
+    margin-top: 40px;
     margin-bottom: 40px;
     @include padding (10px,10px,900px,20px);
 }
@@ -68,7 +69,6 @@ img.imgRecomendados {
     transition: 0.5s;
     text-decoration: none;
     @include padding (8px,8px,40px,40px);
-  
 }
 
 h4 a:hover {
@@ -96,6 +96,38 @@ img.batmanImg {
     margin-left: 23px;
 }
 
+.articuloRecomendados {
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.articuloRecomendadosSinopsis {
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+
+.fa-star {
+    font-size: 1.2rem;
+    padding-top: 4px;
+    padding-left: 7px;
+}
+
+.articuloRecomendadosCalificacion {
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
 /*Media Queries*/
 
 @import url(//db.onlinewebfonts.com/c/dfb3844c6834f75c91f844559732e9a4?family=AlterEgoBBW00-Regular);
@@ -196,3 +228,4 @@ img.footerCards {
     padding-left: 0;
 }
 }
+
