@@ -257,6 +257,15 @@ h5 {
   padding-left: 0;
 }
 
+.tituloCards {
+  display: flex;
+  flex-direction: column;
+}
+
+.precio {
+  margin-top: 22px;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
