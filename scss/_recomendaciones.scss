@@ -10,6 +10,12 @@ h2 {
     margin-top: 22px;
 }
 
+#beige {
+    background: #E3D1AB;
+    color: black;
+
+}
+
 p.textoRecomendados {
     font-style: unset;
     text-align: left;
@@ -231,13 +237,8 @@ img.footerCards {
     padding-right: 30px !important;
   }
 
-.titulosComic2 {
-    padding-right: 30px !important;
-    margin-left: 0 !important;
-}
 .parrafoRecomenados {
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 20px !important;
 }
 }
-

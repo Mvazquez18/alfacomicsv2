@@ -467,6 +467,11 @@ h2 {
   margin-top: 22px;
 }
 
+#beige {
+  background: #E3D1AB;
+  color: black;
+}
+
 p.textoRecomendados {
   font-style: unset;
   text-align: left;
@@ -688,14 +693,9 @@ img.batmanImg {
     padding-right: 30px !important;
   }
 
-  .titulosComic2 {
-    padding-right: 30px !important;
-    margin-left: 0 !important;
-  }
-
   .parrafoRecomenados {
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 20px !important;
   }
 }
 @media (max-width: 480px), (max-width: 375px) {
@@ -824,7 +824,7 @@ img.batmanImg {
 
   .parrafoRecomenados {
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 15px;
   }
 }
 @media (max-width: 768px), (max-width: 800px) {
@@ -908,7 +908,7 @@ img.batmanImg {
   }
 
   .titulosComic1 {
-    padding-right: 460px;
+    padding-right: 490px;
     margin-top: 40px;
     margin-left: 0px;
   }
@@ -919,7 +919,7 @@ img.batmanImg {
   }
 
   .titulosComic2 {
-    padding-right: 460px;
+    padding-right: 490px;
     margin-left: 0px;
     margin-top: 40px;
   }
