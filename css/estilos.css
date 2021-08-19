@@ -592,6 +592,10 @@ img.batmanImg {
   padding-bottom: 0;
 }
 
+.volumen1 {
+  padding-right: 1rem;
+}
+
 /*Media Queries*/
 @media (max-width: 480px) {
   .w-100 {
@@ -672,10 +676,16 @@ img.batmanImg {
     padding-top: 10px;
   }
 
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
   .titulosComic1 {
     margin-top: 20px !important;
     padding-right: 30px !important;
-    margin-left: 20px !important;
   }
 
   .titulosComic2 {
@@ -802,8 +812,9 @@ img.batmanImg {
 
   .titulosComic1 {
     margin-top: 20px !important;
-    padding-right: 30px !important;
-    margin-left: 20px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-left: 0px !important;
   }
 
   .titulosComic2 {

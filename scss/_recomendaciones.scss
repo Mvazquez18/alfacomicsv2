@@ -128,6 +128,10 @@ img.batmanImg {
     padding-top: 20px;
     padding-bottom: 0;
 }
+
+.volumen1 {
+    padding-right: 1rem;
+}
 /*Media Queries*/
 
 @import url(//db.onlinewebfonts.com/c/dfb3844c6834f75c91f844559732e9a4?family=AlterEgoBBW00-Regular);
@@ -208,16 +212,24 @@ img.footerCards {
     margin-left: 0 !important;
     margin-top: 10px;
 }
+
 .iconosRedes {
     justify-content: center;
     padding-top: 10px;
    
 }
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+} 
+
 .titulosComic1 {
     margin-top: 20px !important;
     padding-right: 30px !important;
-    margin-left: 20px !important;;
-}
+  }
 
 .titulosComic2 {
     padding-right: 30px !important;
