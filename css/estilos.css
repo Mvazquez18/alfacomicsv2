@@ -952,5 +952,28 @@ img.batmanImg {
     margin-top: 0 !important;
   }
 }
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1440px), only screen and (min-device-width: 1280px) and (max-device-width: 1440px) {
+  .section__Fotos {
+    column-gap: 40px;
+  }
+
+  #tituloResponsive {
+    margin-left: 60px;
+  }
+}
+@media only screen and (max-device-width: 1280px) {
+  .section__Fotos {
+    column-gap: 10px;
+  }
+
+  .tituloAmarillo {
+    display: flex;
+    justify-content: center;
+  }
+
+  #tituloResponsive {
+    margin-left: 0px;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */

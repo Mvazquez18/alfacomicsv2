@@ -270,4 +270,39 @@ img.footerCards {
 .banner__final {
     margin-top: 0 !important;
 }
+
+
+
+
+
+@media only screen
+  and (max-device-width: 1440px) {
+    .section__Fotos {
+        column-gap: 40px; 
+     }
+ 
+     #tituloResponsive {
+        margin-left: 60px;
+     }
+ 
+    }
 }
+
+
+@media only screen
+  and (max-device-width: 1280px) {
+    .section__Fotos {
+        column-gap: 10px; 
+     }
+ 
+     .tituloAmarillo {
+        display: flex;
+        justify-content: center;
+        
+     }
+
+     #tituloResponsive {
+        margin-left: 0px;
+     }
+ 
+    }
