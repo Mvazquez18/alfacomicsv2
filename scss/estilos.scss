@@ -50,14 +50,14 @@ p {
 
 }
 .recuadro {
-    padding-bottom: 30px;
-    padding-top:40px;
+    @include padding (40px,30px,0px,0px);
+    
 }
 .logoBanner {
     margin-right: 0px;
-    padding-right: 11px;
     margin-bottom: 20px;
     margin-left: 22px;
+    padding-right: 11px;
 }
 
 
@@ -83,16 +83,12 @@ h6 {
 
 .textoBanner{
     font-size: 16px !important;
-    padding-right: 30px;
-    padding-left: 30px;
-   
+    @include padding (0px,0px,30px,30px);
 }
 
 .textoBannerlinea {
     font-size: 16px !important;
-    padding-left: 20px;
-    padding-right: 22px;
-   
+    @include padding (0px,0px,22px,20px); 
 }
 
 .col-sm {
@@ -133,10 +129,7 @@ img.footerCards {
     padding-right: 30px !important;
     margin-left: 0 !important;
 }
-.parrafoRecomenados {
-    padding-right: 0;
-    padding-left: 15px;
-}
+
 }
 
 @media (max-width: 768px), (max-width: 800px) {
@@ -154,9 +147,7 @@ img.footerCards {
         justify-content: space-around;
     }  
     .section__Fotos {
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-bottom: 45px;
+        @include padding (0px,45px,50px,50px);
         margin-top: 25px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
             

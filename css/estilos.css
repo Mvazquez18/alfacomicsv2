@@ -79,6 +79,10 @@ form {
   color: white;
 }
 
+#menuContacto {
+  margin-right: 50px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
 /*Comics y merchandising*/
 h3 {
@@ -271,8 +275,6 @@ p {
   font-weight: 400;
   display: inline-block;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 30px;
   padding-top: 20px;
   padding-bottom: 30px;
   padding-right: 0;
@@ -550,8 +552,10 @@ h4 a:hover {
   text-align: left;
   font-style: 17px;
   text-transform: none;
-  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
   padding-right: 100px;
+  padding-left: 20px;
 }
 
 span {
@@ -568,8 +572,10 @@ img.batmanImg {
   font-size: 22px;
   display: flex;
   justify-content: flex-start;
-  padding-bottom: 20px;
   padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .articuloRecomendadosSinopsis {
@@ -577,13 +583,17 @@ img.batmanImg {
   font-size: 22px;
   display: flex;
   justify-content: flex-start;
-  padding-bottom: 20px;
   padding-top: 0px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .fa-star {
   font-size: 1.2rem;
   padding-top: 4px;
+  padding-bottom: 0px;
+  padding-right: 0px;
   padding-left: 7px;
 }
 
@@ -593,7 +603,9 @@ img.batmanImg {
   display: flex;
   justify-content: flex-start;
   padding-top: 20px;
-  padding-bottom: 0;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .volumen1 {
@@ -695,6 +707,7 @@ img.batmanImg {
   .parrafoRecomenados {
     padding-right: 0;
     padding-left: 20px !important;
+    padding-top: 20px;
   }
 }
 @media (max-width: 480px), (max-width: 375px) {
@@ -737,15 +750,17 @@ img.batmanImg {
   }
 
   .recuadro {
-    padding-bottom: 30px;
     padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .logoBanner {
     margin-right: 0px;
-    padding-right: 11px;
     margin-bottom: 20px;
     margin-left: 22px;
+    padding-right: 11px;
   }
 
   .bannerfinal {
@@ -768,14 +783,18 @@ img.batmanImg {
 
   .textoBanner {
     font-size: 16px !important;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-right: 30px;
     padding-left: 30px;
   }
 
   .textoBannerlinea {
     font-size: 16px !important;
-    padding-left: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-right: 22px;
+    padding-left: 20px;
   }
 
   .col-sm {
@@ -820,11 +839,6 @@ img.batmanImg {
     padding-right: 30px !important;
     margin-left: 0 !important;
   }
-
-  .parrafoRecomenados {
-    padding-right: 0;
-    padding-left: 15px;
-  }
 }
 @media (max-width: 768px), (max-width: 800px) {
   .form-inline .form-control {
@@ -840,9 +854,10 @@ img.batmanImg {
   }
 
   .section__Fotos {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 0px;
     padding-bottom: 45px;
+    padding-right: 50px;
+    padding-left: 50px;
     margin-top: 25px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
   }
